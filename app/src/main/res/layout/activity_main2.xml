@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@mipmap/bg1"
+    tools:context="com.example.administrator.chat.Main2Activity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/bg2"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="花 花"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/admin1"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="260dp"
+        android:hint="用户名/账号"
+        android:drawableLeft="@drawable/ic_003"
+        android:background="@drawable/bg_edittext"
+        android:layout_height="40dp" />
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_005"
+        android:background="@drawable/bg_edittext"
+        android:layout_marginTop="200dp" />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/ic_019"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="275dp"/>
+    <Button
+        android:layout_width="240dp"
+        android:id="@+id/button1"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/btn_selector"
+        android:text="登录"
+        android:textSize="20dp"
+        android:textColor="#bce2e8"
+        android:layout_marginLeft="56dp"/>
+
+</RelativeLayout>
